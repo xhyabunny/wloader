@@ -134,12 +134,14 @@ Now your script will load as a module typed script, and with its defer attribute
 
 This also happens with links, but to resume it; 
 
-The first modifier changes the type of link you are implementing to the ``<head>`` element, for example:
+The first modifier changes the ``rel`` type of link you are implementing to the ``<head>`` element, for example:
 - ``stylesheet``
 - ``preconnect``
 - ``etc``
 
-The next modifier is attributes, samne logic as scripts.
+The next modifier is attributes, same logic as scripts, for example:
+- ``crossorigin``
+- ``etc``
 
 The target value would be the ``content`` tag of this link, which is up to you.
 
