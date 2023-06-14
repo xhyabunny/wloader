@@ -58,7 +58,7 @@ The head and meta values on your JSON file by default will will look like this:
         "icon": "https://github-production-user-asset-6210df.s3.amazonaws.com/106491722/245261475-f581fca3-0ed6-4f8e-9385-1af112c3d46b.png",
         "meta": [ "og:title \\ wloader-app",
             "og:description \\ WLoader is a working head-builder for HTML using JSON and JS",
-                    "og:url \\ https://xhyabunny.netlify.app",
+                    "og:url \\ https://xhyabunny.com/wloader",
                   "og:image \\ https://github-production-user-asset-6210df.s3.amazonaws.com/106491722/245261475-f581fca3-0ed6-4f8e-9385-1af112c3d46b.png",
             "og:theme-color \\ #000000",
                   "viewport \\ width=device-width, initial-scale=1, minimum-scale=1.0",
