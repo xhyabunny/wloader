@@ -99,7 +99,7 @@ Modifiers look something like this:
 "samples": "modifier1\\modifier2\\sample.js"
 ```
 
-They are ordered and go by:
+They are ordered and we'll call them:
 
 ```json
 "KEY": "ATTRIBUTE_MODIFIER\\TYPE_MODIFIER\\TARGET_VALUE"
@@ -108,7 +108,7 @@ They are ordered and go by:
 Again notice how its separated by ``\\``
 
 They are used to implement several features on each element of the HTML, for example, if we wanted a script to have the ``module`` type
-we could just change the attribute modifier to one of our scripts.
+we could just change our type modifier to one of our scripts.
 
 ```json
 "scripts": [
