@@ -77,8 +77,11 @@ The head and meta values on your JSON file by default will will look like this:
 
 This part of the JSON file contains the info about the Webpage icon, title and its embedding on social media.
 
-<p>Notice the separation of each strings with the ``\\`` character, which marks the key *(left side)* and the value *(right side)* of each string.
-You wanna change the value of each key with the information you want, as long its valid for each object and you respect the assigned order.</p>
+Notice the ``length`` key, which is valued ``6``, this number is the quantity of meta links that are in the list ``(excepting itself)``, if you ever wanted to add another element to the array, please maintain the ``length`` value according to the quantity of lines that the array contains.
+
+Notice the separation of each string with ``\\`` character, which marks the relative key ``(left side)`` and value ``(right side)`` of each string as if it was a normal json variable.
+
+You wanna change the value of each key with the information you want, as long as your inserted value is correct and according to each meta link and you respect the assigned order given to you (``"key\\value"``).
 
 As for ``meta_embed_image`` boolean, if set to ``true``, your ``og:image`` element will become a big cover image, instead of just a tiny logo at the side of your embed. 
 
@@ -162,4 +165,35 @@ It is set to ``fast`` by default, but you have many options:
 In case you want/need it, heres the webhosted link to our script as well:
 ```html
 <script src="https://xhyabunny.com/wloader/wloader.js"</script>
+```
+Then create a file in the same directory called ``wloader.json`` then paste this code:
+```json
+{
+    "html": "./index.html",
+    "css": "./index.css",
+
+    "animationType": "fast",
+
+    "head": 
+    {
+        "title": "wloader",
+        "icon": "https://github-production-user-asset-6210df.s3.amazonaws.com/106491722/245261475-f581fca3-0ed6-4f8e-9385-1af112c3d46b.png",
+        "meta": [ "og:title \\ your-app",
+            "og:description \\ Your app description",
+                    "og:url \\ https://your.url",
+                  "og:image \\ https://yourimage.png",
+            "og:theme-color \\ #000000",
+                  "viewport \\ width=device-width, initial-scale=1, minimum-scale=1.0",
+                    "length \\ 6" ],
+        "meta_embed_image": false
+    },
+
+    "links": [
+        ""
+    ],
+
+    "scripts": [
+        ""
+    ]
+}
 ```
