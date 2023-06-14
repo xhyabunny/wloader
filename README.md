@@ -5,10 +5,10 @@
 
 <h1>Index</h1>
 
-- [Instructions](https://github.com/xhyabunny/wloader/edit/main/README.md#instructions)
+- [Instructions](https://github.com/xhyabunny/wloader/main/README.md#instructions)
 
-- [Using the JSON file](https://github.com/xhyabunny/wloader/edit/main/README.md#using-the-json-file) > [Main indexes](https://github.com/xhyabunny/wloader/edit/main/README.md#main-indexes) > [Head & Meta elements](https://github.com/xhyabunny/wloader/edit/main/README.md#-head--meta-elements) > [The modifiers](https://github.com/xhyabunny/wloader/edit/main/README.md#the-modifiers) > [OnLoad animations](https://github.com/xhyabunny/wloader/edit/main/README.md#onload-animations)
-- [Crossorigin script](https://github.com/xhyabunny/wloader/edit/main/README.md#crossorigin-script)
+- [Using the JSON file](https://github.com/xhyabunny/wloader/main/README.md#using-the-json-file) > [Main indexes](https://github.com/xhyabunny/wloader/main/README.md#main-indexes) > [Head & Meta elements](https://github.com/xhyabunny/wloader/main/README.md#-head--meta-elements) > [The modifiers](https://github.com/xhyabunny/wloader/main/README.md#the-modifiers) > [OnLoad animations](https://github.com/xhyabunny/wloader/main/README.md#onload-animations)
+- [Crossorigin script](https://github.com/xhyabunny/wloader/main/README.md#crossorigin-script)
 
 <h1>Instructions</h1> <img style="
   height: 40px;width: 40px;" src="https://github-production-user-asset-6210df.s3.amazonaws.com/106491722/245261475-f581fca3-0ed6-4f8e-9385-1af112c3d46b.png"
