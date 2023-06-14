@@ -3,7 +3,7 @@
 
 ![wloaderbanner](https://github.com/xhyabunny/wloader/assets/106491722/1eb9d4d4-086e-47f5-972e-df25340524e7)
 
-<h1>Index</h1>
+<h1>Index</h1> 
 
 - [Instructions](https://github.com/xhyabunny/wloader/main/README.md#instructions)
 
