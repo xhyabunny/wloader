@@ -8,7 +8,7 @@
 - [Instructions](https://github.com/xhyabunny/wloader/tree/main#instructions)
 
 - [Using the JSON file](https://github.com/xhyabunny/wloader/tree/main#using-the-json-file) > [Main indexes](https://github.com/xhyabunny/wloader/tree/main#main-indexes) > [Head & Meta elements](https://github.com/xhyabunny/wloader/tree/main#head--meta-elements) > [The modifiers](https://github.com/xhyabunny/wloader/tree/main#the-modifiers) > [OnLoad animations](https://github.com/xhyabunny/wloader/tree/main#onload-animations)
-- [Crossorigin script](https://github.com/xhyabunny/wloader/tree/main#crossorigin-script)
+- [Credits](https://github.com/xhyabunny/wloader/tree/main#credits)
 
 <h1>Instructions</h1> <img style="
   height: 40px;width: 40px;" src="https://github-production-user-asset-6210df.s3.amazonaws.com/106491722/245261475-f581fca3-0ed6-4f8e-9385-1af112c3d46b.png"
@@ -160,40 +160,7 @@ It is set to ``fast`` by default, but you have many options:
 - ``smooth``
 - ``smoother``
 
-## Crossorigin script
+## Credits
 
-In case you want/need it, heres the webhosted link to our script as well:
-```html
-<script src="https://xhyabunny.com/wloader/wloader.js"</script>
-```
-Then create a file in the same directory called ``wloader.json`` then paste this code:
-```json
-{
-    "html": "./index.html",
-    "css": "./index.css",
-
-    "animationType": "fast",
-
-    "head": 
-    {
-        "title": "wloader",
-        "icon": "https://github-production-user-asset-6210df.s3.amazonaws.com/106491722/245261475-f581fca3-0ed6-4f8e-9385-1af112c3d46b.png",
-        "meta": [ "og:title \\ your-app",
-            "og:description \\ Your app description",
-                    "og:url \\ https://your.url",
-                  "og:image \\ https://yourimage.png",
-            "og:theme-color \\ #000000",
-                  "viewport \\ width=device-width, initial-scale=1, minimum-scale=1.0",
-                    "length \\ 6" ],
-        "meta_embed_image": false
-    },
-
-    "links": [
-        ""
-    ],
-
-    "scripts": [
-        ""
-    ]
-}
-```
+- xhyabunny
+- sanicbtw (recycled idea)
