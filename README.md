@@ -162,6 +162,8 @@ It is set to ``fast`` by default, but you have many options:
 - ``smooth``
 - ``smoother``
 
+All of them define a faster or slower entry transition.
+
 ## Credits
 
 - xhyabunny
