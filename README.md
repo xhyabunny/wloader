@@ -96,7 +96,7 @@ As for ``meta_embed_image`` boolean, if set to ``true``, your ``og:image`` eleme
 Modifiers look something like this:
 
 ```json
-"samples": "modifier1\\modifier2\\sample.js"
+"sample": "modifier1\\modifier2\\sample.js"
 ```
 
 They are ordered and we'll call them:
