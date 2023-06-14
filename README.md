@@ -147,7 +147,7 @@ The target value would be the ``content`` tag of this link, which is up to you.
 
 <h3>OnLoad animations</h3>
 
-These are animations that progressively transitions the opacity of your whole page from 0 to 1.
+These are animations that progressively transition the opacity of your whole page from 0 to 1.
 
 You can change them here:
 
