@@ -5,10 +5,10 @@
 
 <h1>Index</h1> 
 
-- [Instructions](https://github.com/xhyabunny/wloader/main/README.md#instructions)
+- [Instructions](https://github.com/xhyabunny/wloader/tree/main#instructions)
 
-- [Using the JSON file](https://github.com/xhyabunny/wloader/main/README.md#using-the-json-file) > [Main indexes](https://github.com/xhyabunny/wloader/main/README.md#main-indexes) > [Head & Meta elements](https://github.com/xhyabunny/wloader/main/README.md#-head--meta-elements) > [The modifiers](https://github.com/xhyabunny/wloader/main/README.md#the-modifiers) > [OnLoad animations](https://github.com/xhyabunny/wloader/main/README.md#onload-animations)
-- [Crossorigin script](https://github.com/xhyabunny/wloader/main/README.md#crossorigin-script)
+- [Using the JSON file](https://github.com/xhyabunny/wloader/tree/main#using-the-json-file) > [Main indexes](https://github.com/xhyabunny/wloader/tree/main#main-indexes) > [Head & Meta elements](https://github.com/xhyabunny/wloader/tree/main#head--meta-elements) > [The modifiers](https://github.com/xhyabunny/wloader/tree/main#the-modifiers) > [OnLoad animations](https://github.com/xhyabunny/wloader/tree/main#onload-animations)
+- [Crossorigin script](https://github.com/xhyabunny/wloader/tree/main#crossorigin-script)
 
 <h1>Instructions</h1> <img style="
   height: 40px;width: 40px;" src="https://github-production-user-asset-6210df.s3.amazonaws.com/106491722/245261475-f581fca3-0ed6-4f8e-9385-1af112c3d46b.png"
@@ -55,7 +55,7 @@ The first thing you will realize when you check this json file, are both the ``h
 
 ⚠ *It's VERY IMPORTANT that you add the two main indexes, if you ever need to add another CSS file, you can add these on each respective array, we'll get to that soon.*
 
-<h3> Head & Meta elements</h3>
+<h3>Head & Meta elements</h3>
 
 The head and meta values on your JSON file by default will will look like this:
 
