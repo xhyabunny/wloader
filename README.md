@@ -118,17 +118,17 @@ we could just change our type modifier to one of our scripts.
 
 If you don't need to use these modifiers you can just tag them with ``null``.
 
-And then for attributes we can add them like this:
+And then for crossorigin attributes we can add them like this:
 
 ```json
 "scripts": [
-  "module\\defer\\.path/to/script.js"
+  "module\\crossorigin\\.path/to/script.js"
 ]
 ```
 
-As for attribute modifiers, you can add as many attributes you want as long as you separate them with a space in between.
+As for defer attributes, *these aren't avaiable yet*, those may be added on the HTML file manually until further updates.
 
-Now your script will load as a module typed script, and with its defer attribute
+Now your script will load as a module typed script, and with its crossorigin attribute.
 
 ⚠ *REMEMBER: MODIFIERS GO IN ORDER, YOU CAN'T PUT TYPE MODIFIERS INSIDE ATTRIBUTE MODIFIERS AND/OR THE OTHER WAY AROUND*
 
