@@ -102,27 +102,27 @@ Modifiers look something like this:
 They are ordered and we'll call them:
 
 ```json
-"KEY": "ATTRIBUTE_MODIFIER\\TYPE_MODIFIER\\TARGET_VALUE"
+"KEY": "TYPE_MODIFIER\\ATTRIBUTE_MODIFIER\\TARGET_VALUE"
 ```
 
 Again notice how its separated by ``\\``
 
-They are used to implement several features on each element of the HTML, for example, if we wanted a script to have the ``module`` type
-we could just change our type modifier to one of our scripts.
+They are used to implement several features on each element of the HTML, for example, if we wanted a script to have the ``type`` module
+we could just change our module modifier to one of our scripts.
 
 ```json
 "scripts": [
-  "module\\null\\.path/to/script.js"
+  "type_name\\null\\.path/to/script.js"
 ]
 ```
 
-If you don't need to use these modifiers you can just tag them with ``null``.
+If you don't need to use these modifiers you can just tag them out with ``null``.
 
 And then for crossorigin attributes we can add them like this:
 
 ```json
 "scripts": [
-  "module\\crossorigin\\.path/to/script.js"
+  "type_name\\crossorigin\\.path/to/script.js"
 ]
 ```
 
@@ -141,7 +141,6 @@ The first modifier changes the ``rel`` type of link you are implementing to the 
 
 The next modifier is attributes, same logic as scripts, for example:
 - ``crossorigin``
-- ``etc``
 
 The target value would be the ``content`` tag of this link, which is up to you.
 
