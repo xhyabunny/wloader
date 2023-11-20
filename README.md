@@ -64,14 +64,9 @@ The head and meta values on your JSON file by default will will look like this:
     {
         "title": "wloader",
         "icon": "https://github-production-user-asset-6210df.s3.amazonaws.com/106491722/245261475-f581fca3-0ed6-4f8e-9385-1af112c3d46b.png",
-        "meta": [ "og:title \\ wloader-app",
-            "og:description \\ WLoader is a working and reusable script that builds a simpler HTML using JSON and JS.",
-                    "og:url \\ https://xhyabunny.com/wloader",
-                  "og:image \\ https://github-production-user-asset-6210df.s3.amazonaws.com/106491722/245261475-f581fca3-0ed6-4f8e-9385-1af112c3d46b.png",
-            "og:theme-color \\ #000000",
-                  "viewport \\ width=device-width, initial-scale=1, minimum-scale=1.0",
-                    "length \\ 6" ],
-        "meta_embed_image": false
+        "meta": [
+                "og:title \\ test"
+        ]
     },
 ```
 
@@ -82,14 +77,6 @@ Notice the ``length`` key, which is valued ``6``, this number is the quantity of
 Notice the separation of each string with ``\\`` character, which marks the relative key ``(left side)`` and value ``(right side)`` of each string as if it was a normal json variable.
 
 You wanna change the value of each key with the information you want, as long as your inserted value is correct and according to each meta link and you respect the assigned order given to you (``"key\\value"``).
-
-As for ``meta_embed_image`` boolean, if set to ``true``, your ``og:image`` element will become a big cover image, instead of just a tiny logo at the side of your embed. 
-
-🔸 Here's an example:
-
-<img style="
-  height: 550px;width: 590px;" src="https://github-production-user-asset-6210df.s3.amazonaws.com/106491722/245301592-37c9eb5a-5287-43ba-95b8-745c4c38ff09.png"
-  />
   
 <h3>The modifiers</h3>
 
@@ -107,8 +94,8 @@ They are ordered and we'll call them:
 
 Again notice how its separated by ``\\``
 
-They are used to implement several features on each element of the HTML, for example, if we wanted a script to have the ``type`` module
-we could just change our module modifier to one of our scripts.
+They are used to implement several features on each element of the HTML, for example, if we wanted a script to have the ``type`` modifier
+we could just do it like this:
 
 ```json
 "scripts": [
@@ -128,13 +115,13 @@ And then for crossorigin attributes we can add them like this:
 
 As for defer attributes, *these aren't avaiable yet*, those may be added on the HTML file manually until further updates.
 
-Now your script will load as a module typed script, and with its crossorigin attribute.
+Now your script will load as a typed script, and with its crossorigin attribute.
 
 ⚠ *REMEMBER: MODIFIERS GO IN ORDER, YOU CAN'T PUT TYPE MODIFIERS INSIDE ATTRIBUTE MODIFIERS AND/OR THE OTHER WAY AROUND*
 
 This also happens with links, but to resume it; 
 
-The first modifier changes the ``rel`` type of link you are implementing to the ``<head>`` element, for example:
+The first modifier changes the ``rel`` of the link you are implementing, this link appends to the ``<head>`` element of your document, for example:
 - ``stylesheet``
 - ``preconnect``
 - ``etc``
@@ -155,13 +142,13 @@ You can change them here:
 ```
 
 It is set to ``fast`` by default, but you have many options:
-- ``none`` (disabled)
+- ``none`` (animation is disabled)
 - ``faster``
 - ``fast``
 - ``smooth``
 - ``smoother``
 
-All of them define a faster or slower entry transition.
+All of them define a faster or slower entering transition.
 
 ## Credits
 
