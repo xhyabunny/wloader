@@ -70,9 +70,7 @@ The head and meta values on your JSON file by default will will look like this:
     },
 ```
 
-This part of the JSON file contains the info about the Webpage icon, title and its embedding on social media.
-
-Notice the ``length`` key, which is valued ``6``, this number is the quantity of meta links that are in the list ``(excepting itself)``, if you ever wanted to add another element to the array, please maintain the ``length`` value according to the quantity of lines that the array contains.
+This part of the JSON file contains the info about the Webpage icon and title.
 
 Notice the separation of each string with ``\\`` character, which marks the relative key ``(left side)`` and value ``(right side)`` of each string as if it was a normal json variable.
 
